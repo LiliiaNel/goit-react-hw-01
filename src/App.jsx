@@ -1,13 +1,14 @@
 // import { useState } from 'react'
-import './App.css'
+import './App.css';
+import clsx from 'clsx';
 
 import userData from "./userData.json";
 import friends from "./friends.json";
 import transactions from "./transactions.json";
 
-import Profile from "./components/profile/Profile"
-import FriendList from "./components/friendlist/FriendList"
-import TransactionHistory from "./components/transactionhistory/TransactionHistory"
+import Profile from "./components/profile/Profile";
+import FriendList from "./components/friendlist/FriendList";
+import TransactionHistory from "./components/transactionhistory/TransactionHistory";
 
 const App = () => {
   return (
