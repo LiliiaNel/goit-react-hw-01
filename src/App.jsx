@@ -1,6 +1,4 @@
-// import { useState } from 'react'
 import './App.css';
-import clsx from 'clsx';
 
 import userData from "./userData.json";
 import friends from "./friends.json";

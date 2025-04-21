@@ -1,9 +1,10 @@
 import css from "./FriendListItem.module.css"
-export default function FriendListItem ({avatar, name, isOnline}){
+import clsx from "clsx";
+export default function FriendListItem ({avatar, name, status}){
     return (
-        <div>
+        <div className={css.card}>
             <img src={avatar} alt="Avatar" width="48" />
-            <p>{name}</p>
-            <p>{isOnline}</p>
+            <p className={css.title}>{name}</p>
+            <p className={clsx(status? css.online : css.offline)}>{status? "Online" : "Offline"}</p>
         </div>);
     }

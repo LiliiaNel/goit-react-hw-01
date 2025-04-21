@@ -4,7 +4,6 @@
   border: 3px solid #424242;
   border-radius: 10px;
   padding-top: 16px;
-  margin-top: 30px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
@@ -38,7 +37,7 @@
   flex-direction: row;
   justify-content: space-between;
   border-top: 3px solid #a7a4a4;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 7px 7px;
   overflow: hidden;
 }
 .boxItem {
